@@ -1,0 +1,7 @@
+syntax = "proto2";
+package org.rcosnita.hbase.proto;
+
+message Transaction {
+    required string acc1 = 1;
+    required int64 value1 = 2;
+};
